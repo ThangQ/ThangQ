@@ -1,0 +1,38 @@
+/* font-family: 'Black Ops One', cursive; */
+/* font-family: 'Rampart One', cursive; */
+/* font-family: 'Faster One', cursive; */
+/* font-family: 'Frijole', cursive; */
+/* font-family: 'Monoton', cursive; */
+html {cursor: default;}
+/*============================COLORS====================================*/
+.clrcus-blue {color:rgb(78 137 203); }
+/*============================STYLE====================================*/
+.parallax {
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat; }
+/*============================LOGOS====================================*/
+.logo-top {
+	margin: 0 5px;
+	font-size: 25px; }
+.logo-top:hover .U-logo { font-style: normal; } 
+.logo-bottom { font-size: 30px; }
+.logo-bottom  .other-logo {color:rgb(255, 255, 255);}
+.U-logo {
+	font-family: 'Black Ops One', cursive;
+	color: rgb(255, 72, 0);
+	font-style: italic;
+	font-size: 2em; }
+.other-logo {
+	font-family: 'Rampart One', cursive;
+	font-weight: bold; }
+@media screen and (max-width: 768px) {
+    #mobi-nav {display: flex; }
+    #desktop-nav {display: none; }
+    .logo-top {font-size: 30px; }
+}
+/*============================OTHERS====================================*/
+a { 
+    text-decoration: none; 
+    color:black; }

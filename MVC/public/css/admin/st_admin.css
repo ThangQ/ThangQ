@@ -1,0 +1,47 @@
+html {cursor: default;}
+th,td {
+    padding: 5px 10px;
+    border: 1px solid;
+    background-color: lightblue;
+}
+.active {
+    pointer-events: none;
+    color: red;
+    padding-left: 50px !important;
+    background-color: rgb(29, 57, 87) !important;
+}
+
+.workspace {
+    overflow-y: auto;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.notify{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 30px 10px 10px;
+    background-color: rgb(0, 113, 144);
+    min-width: 210px;
+    max-width: 270px;
+    color: rgb(255, 254, 182);
+    /* background-image: linear-gradient(to bottom, black,white,rgb(255, 255, 255)); */
+    display: none;
+}
+.btn-close-notify{
+    position: absolute;
+    right: 0;
+    top:0;
+    font-size: 20px;
+    border: none;
+    color: rgb(255, 255, 255);
+    width:30px;
+    height: 30px;
+    background: none;
+    
+}
+.btn-close-notify:hover{
+    background-color: rgb(246, 75, 75);
+}
+    

@@ -1,0 +1,23 @@
+.workspace__items {
+    margin: 10px;
+    overflow: hidden;
+}
+.workspace__item {
+    box-shadow: 2px 2px 5px black;
+    text-align: center;
+    font-size: 30px;
+    margin: 5% 10%;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right, black,rgb(177, 177, 177), white);
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+.workspace__item:hover{
+    box-shadow: 0px 0px 10px black;
+    transform: scale(1.05, 1.05);
+    background-image: linear-gradient(to top right, black,rgb(177, 177, 177), white);
+    transition-duration: 0.5s;
+}
+.workspace__item p{
+    text-align: right;
+}

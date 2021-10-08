@@ -1,0 +1,89 @@
+.user-day-requests{
+    background-color: rgb(31, 61, 94);
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border: 1px dotted white;
+    border-radius: 0px 0px 15px 15px;
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.user-request {
+    padding: 10px 15px;
+    margin: 15px 25px;
+    background-color: rgb(251, 157, 157);
+    border-radius: 10px;
+    position: relative;
+}
+.user-request:hover .reply-tools {display: block;transition-duration: 10s;}
+.reply-tools {
+    position: absolute;
+    bottom: -20px;
+    right: 15px;
+    display: none;
+    width: auto;
+    transition-duration: 10s;
+    border-radius: 0 0 10px 10px;
+    background-color: #f5f5cc;
+    overflow: hidden;
+}
+.btn{
+    margin: 0;
+    width:2em;
+    height: 2em;
+    border: none;
+    padding: 5px;
+    font-size: 20px;
+    background:none;
+    color:rgb(58, 103, 214);
+}
+.btn:hover{color:rgb(77, 214, 75);}
+.date-post{
+    letter-spacing: 1px;
+    font-style: italic;
+    padding: 5px 0;
+    /* margin-bottom: 10px; */
+    color: white;
+    background-color: rgb(43, 84, 130);
+    border-radius: 0 0 10px 10px;
+    border: 2px dotted;
+    /* border-top: 2px dotted; */
+    text-align: center;
+    position:sticky;
+    top:-10px;
+    z-index: 1;
+}
+.post-id {
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.time-post {
+    text-align: right;
+    letter-spacing: 2px;
+    /* background-color: aliceblue; */
+}
+.user-name {
+    letter-spacing: 1px;
+    color:#008abf;
+    background-color: #ffff91;
+    width: auto;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top:-10px;
+    left: -7px;
+    border-top: 1px solid rgb(255, 96, 96);
+    border-left: 1px solid rgb(255, 96, 96);
+}
+.request-content {
+    background-color: #f5f5cc;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}

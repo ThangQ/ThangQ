@@ -1,0 +1,24 @@
+.side-bar {
+    overflow: hidden;
+    background: rgb(19, 38, 57);
+    height:100vh;
+}
+    .side-bar__header {
+        height: 10vh;
+        overflow: hidden;
+        background-color: aliceblue;
+    }
+    .side-bar__nav {
+        color:rgb(255, 255, 255);
+    }
+        .nav-link{
+            color:rgb(255, 255, 255);
+            display: block;
+            padding: 20px;
+            transition-duration: 1s;
+        }
+        .nav-link:hover{
+            padding-left: 35px;
+            transition-duration: 0.5s;
+            background-color: rgb(29, 57, 87);
+        }

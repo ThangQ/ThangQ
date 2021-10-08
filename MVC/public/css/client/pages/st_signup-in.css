@@ -1,0 +1,64 @@
+main {
+	background-image: linear-gradient(to top left, #f6d9ae, #7c7ccf);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh; }
+.form-ctn {
+	box-shadow: 0 0 10px white;
+	background: #b9f5ff; }
+
+form {
+	width: 290px;
+	overflow: hidden;
+	padding: 10px; }
+	form > p{
+		font-size: 14px;
+		font-style: italic;
+		padding-left: 15px;
+		color: rgb(245, 108, 108); }
+	.form-ctn__input-ctn {
+		color: #186d89;
+		font-size: 30px;
+		display: flex;
+		padding: 0 10px;
+		margin: 20px 0 10px; }
+		input[type='text'],input[type='password'],input[type='email']{
+			border: none;
+			color: #237a60;
+			display: block;
+			font-size: 20px;
+			background: none;
+			margin-left: 10px;  }
+	input[type='submit'] {
+		font-weight: bold;
+		color: #3e7fe8;
+		background: #8eeec4;
+		border: none;
+		box-shadow: 2px -2px 5px gray;
+		margin: 10px 5%;
+		padding: 10px 0;
+		width: 90%;
+		font-size: 25px;
+		cursor: pointer; }
+	input[type='submit']:hover { box-shadow: -2px 2px 5px gray; }
+	input:focus {
+		border-bottom: 3px solid #2db0d9;
+		transition-duration: 300ms;
+		outline: none;}
+	::placeholder {
+		color:gray;
+		font-style: italic;
+		font-size: 17px; }
+	.form-ctn__checkbox-ctn {
+		padding-left: 10px;
+		margin: 10px 0;
+		font-size: 17px; }
+	.form-ctn__other-ctn {
+		width: 90%;
+		margin: 0 5%; }
+	.form-ctn__other-ctn > a {
+		color: #968300;
+		padding: 3px 0;
+		display: block; }
+	.form-ctn__other-ctn > a:hover { color: blue;}
